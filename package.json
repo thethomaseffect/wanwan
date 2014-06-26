@@ -1,0 +1,36 @@
+{
+  "name": "wanwan",
+  "version": "0.0.1",
+  "description": "A command line app for managing your anime lists",
+  "keywords": [
+    "anime",
+    "myanimelist",
+    "laharl"
+  ],
+  "author": {
+    "name": "Thomas Geraghty",
+    "email": "thethomaseffect@gmail.com",
+    "url": "https://thomasgeraghty.wordpress.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thethomaseffect/wanwan"
+  },
+  "main": "wanwan",
+  "engines": {
+    "node": ">= 0.6.x"
+  },
+  "files": [
+    "wanwan.js"
+  ],
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/thethomaseffect/wanwan/issues"
+  },
+  "dependencies": {
+    "cli-color": "~0.3.2",
+    "commander": "~2.2.0",
+    "ddg": "0.0.3",
+    "underscore": "~1.6.0"
+  }
+}
